@@ -34,6 +34,4 @@ if __name__ == '__main__':
     print('Second notebook: ', second_notebook)
     print('Third notebook: ', third_notebook)
     print('\nNotebook ID: ', Notebook.get_notebook_id(), '\n')
-    notebooks = [first_notebook, second_notebook, third_notebook]
-    for notebook in notebooks:
-        print(notebook)
+    
